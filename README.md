@@ -66,6 +66,8 @@ more information about how to compile GLFW yourself.
 Example for Mac:
 ```
 cmake -D CMAKE_C_COMPILER=clang -D CMAKE_BUILD_TYPE=Debug -S . -B build/ -G Xcode && cmake --build build/
+or
+cmake -D CMAKE_C_COMPILER=clang -D CMAKE_BUILD_TYPE=Debug -S . -B build/ -G "Unix Makefiles" && cmake --build build/
 ```
 
 ## Using GLFW
